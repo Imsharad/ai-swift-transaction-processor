@@ -1,0 +1,51 @@
+================================================================================
+SWIFT TRANSACTION PROCESSING SYSTEM - HIGH VALUE TRANSACTIONS REPORT
+================================================================================
+Generated: 2025-11-05 19:45:34
+High-Value Transactions (> $50,000): 5
+
+HIGH-VALUE TRANSACTION STATISTICS:
+- Valid Messages: 5
+- Fraudulent Messages: 0
+- Clean Messages: 5
+.2f
+
+ORCHESTRATOR ANALYSIS:
+- Tasks Created: 8
+- Task Types Created:
+  * fraud_analysis: 3
+  * amount_verification: 1
+  * compliance_check: 2
+  * pattern_detection: 1
+  * summary_report: 1
+
+TASK EXECUTION RESULTS:
+- Tasks Completed: 8
+- Tasks Failed: 0
+
+HIGH-VALUE TRANSACTION DETAILS:
+--------------------------------------------------------------------------------
+2dType: MT103 | Status: VALID | Fraud: CLEAN (20.0%)
+    Sender: SCHTHKGC756
+    Receiver: XMVJAUKY57V
+    Reference: INV46902
+
+2dType: MT103 | Status: VALID | Fraud: CLEAN (10.0%)
+    Sender: JFRTFR2L7EI
+    Receiver: YKEFDEGDP7H
+    Reference: TXN197406079088
+
+2dType: MT103 | Status: VALID | Fraud: CLEAN (13.33%)
+    Sender: HUSPFR43SXO
+    Receiver: BZEVUS16NWS
+    Reference: INV81856
+
+2dType: MT202 | Status: VALID | Fraud: CLEAN (13.33%)
+    Sender: JFRTFR2L7EI
+    Receiver: YQPVFRXT8Y0
+    Reference: ECB523216
+
+2dType: MT202 | Status: VALID | Fraud: CLEAN (20.0%)
+    Sender: SCHTHKGC756
+    Receiver: HGUIGBFEHXR
+    Reference: RXG329475

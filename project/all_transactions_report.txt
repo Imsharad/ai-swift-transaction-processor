@@ -1,0 +1,26 @@
+================================================================================
+SWIFT TRANSACTION PROCESSING SYSTEM - ALL TRANSACTIONS REPORT
+================================================================================
+Generated: 2025-11-05 19:45:34
+Total Transactions: 10
+
+SUMMARY STATISTICS:
+- Valid Messages: 10
+- Fraudulent Messages: 0
+- Clean Messages: 10
+- MT103 Messages: 7
+- MT202 Messages: 3
+.2f
+
+TOP 10 TRANSACTIONS BY AMOUNT:
+--------------------------------------------------------------------------------
+2dType: MT202 | Status: VALID | Fraud: CLEAN
+2dType: MT103 | Status: VALID | Fraud: CLEAN
+2dType: MT202 | Status: VALID | Fraud: CLEAN
+2dType: MT103 | Status: VALID | Fraud: CLEAN
+2dType: MT103 | Status: VALID | Fraud: CLEAN
+2dType: MT202 | Status: VALID | Fraud: CLEAN
+2dType: MT103 | Status: VALID | Fraud: CLEAN
+2dType: MT103 | Status: VALID | Fraud: CLEAN
+2dType: MT103 | Status: VALID | Fraud: CLEAN
+2dType: MT103 | Status: VALID | Fraud: CLEAN

@@ -83,7 +83,7 @@ DURATION=$((END_TIME - START_TIME))
 
 if [[ $GEMINI_EXIT -eq 0 ]]; then
     print_step "Review generation completed in ${DURATION}s."
-    COUNT=$(ls feedback/criteria_*.md feedback/[0-9]*.md 2>/dev/null | wc -l)
+    COUNT=$(find feedback -maxdepth 1 -name "*.md" 2>/dev/null | grep -v "summary.md" | wc -l)
     HAS_SUMMARY=$([[ -f "feedback/summary.md" ]] && echo "yes" || echo "no")
     
     if [[ $COUNT -ge 1 && "$HAS_SUMMARY" == "yes" ]]; then
